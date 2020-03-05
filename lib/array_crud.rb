@@ -11,7 +11,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-
+  
 end
 
 def remove_element_from_end_of_array(array)
@@ -31,6 +31,6 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  length = array.length
-
+  index = array.length - 1
+  array[index]
 end
